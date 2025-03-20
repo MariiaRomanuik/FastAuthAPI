@@ -9,10 +9,15 @@ python3 -m venv venv
 . venv/bin/activate
 ```
 ```shell
-pip install - r requirements.txt
+pip install -r requirements.txt
 ```
 
-To create database, open mysql password "root":
+Change filename example.env to .env:
+```shell
+mv example.env .env
+```
+
+To create database, open mysql via terminal with password "root":
 ```shell
 mysql -u root -p
 ```
